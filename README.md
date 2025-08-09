@@ -27,6 +27,7 @@ This repository contains a curated collection of **11 exceptional AI-assisted de
 | Workflow | Complexity | Time | Prevents | Key Innovation |
 |----------|------------|------|----------|----------------|
 | [**Swarm Intelligence**](workflows/orchestration/swarm-intelligence/) | Expert | Variable | Single-perspective solutions | 5 specialized agents with dynamic spawning |
+| [**Attention Auctions**](.claude/commands/orchestration/attention-auctions.md) | Intermediate | 20-40 min | Poor focus allocation | Second-price auction for reviewer/agent time |
 | [**MCP Orchestration DSL**](workflows/orchestration/mcp-orchestrate/) | Intermediate | 30-60 min | Tool integration complexity | Simple DSL for complex AI workflows |
 
 ### **Synthesis** - Knowledge Extraction and Pattern Mining

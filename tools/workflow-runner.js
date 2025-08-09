@@ -211,8 +211,13 @@ function runAttentionAuctions(args) {
 }
 
 function getFlag(args, name) {
-  for (const arg of args) {
+  for (let i = 0; i < args.length; i += 1) {
+    const arg = args[i];
     if (arg.startsWith(name + "=")) return arg.slice(name.length + 1);
+    if (arg === name) {
+      const next = args[i + 1];
+      if (next && !String(next).startsWith("--")) return next;
+    }
   }
   return null;
 }

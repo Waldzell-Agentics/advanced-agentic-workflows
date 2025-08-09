@@ -9,10 +9,11 @@ Prerequisites:
 Quick start:
 - Explore workflows via the CLI:
   - `./tools/workflow-runner.js --help`
-  - `./tools/workflow-runner.js code-review-game`
-  - `./tools/workflow-runner.js feature-discovery "Discover realtime collab"`
-  - `./tools/workflow-runner.js attention-auctions --items 'ui:0.8,api:0.6' --agents 'review:50,perf:40'`
+  - `bash examples/code-review-game/run.sh`
+  - `bash examples/feature-discovery/run.sh`
+  - `bash examples/attention-auctions/run.sh`
+  - `bash examples/run-all.sh`
 
 Notes:
-- Most workflows are documentation-backed and meant to be run with your preferred AI tool. The CLI surfaces instructions.
+- Most workflows are documentation-backed and meant to be run with your preferred AI tool. The CLI surfaces instructions. See `examples/` for runnable demonstrations for each workflow.
 - The "Attention Auctions" workflow includes a local simulator for allocating reviewer/agent attention using a second-price auction.
